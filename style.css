@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a; /* azul escuro quase preto */
+    color: #e5e7eb;
+    text-align: center;
+    padding: 40px;
+}
+
+.container {
+    background: #1e293b; /* caixa um pouco mais clara */
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 0 25px rgba(0,0,0,0.8);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #facc15; /* dourado */
+}
+
+input, select {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    border: none;
+    width: 80%;
+    background: #334155;
+    color: white;
+}
+
+input::placeholder {
+    color: #cbd5f5;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #7c3aed; /* roxo */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #a78bfa;
+}
+
+#result {
+    margin-top: 20px;
+    display: none;
+}
+
+.knight-img {
+    margin-top: 15px;
+    width: 200px;
+    border-radius: 10px;
+    border: 3px solid #facc15;
+}
